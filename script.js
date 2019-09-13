@@ -4,8 +4,8 @@ let time = prompt("Введите дату в формате YYYY-MM-DD");
 let appData = {
     budget: money,
     timeData: time,
-    expenses: {whatExpenses: howManyExpenses},
-    optionalExpenses: "",
+    expenses: {},
+    optionalExpenses: {},
     income: [],
     savings: false,  
 };
@@ -13,3 +13,5 @@ let appData = {
 var whatExpenses = prompt("Введите обязательную статью расходов в этом месяце");
 var howManyExpenses = prompt("Во сколько обойдется?");
 alert(appData.budget/30);
+
+
