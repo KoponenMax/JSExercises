@@ -12,4 +12,4 @@ let appData = {
 
 var whatExpenses = prompt("Введите обязательную статью расходов в этом месяце");
 var howManyExpenses = prompt("Во сколько обойдется?");
-alert(appData.budget/29);
+alert(appData.budget/30);
